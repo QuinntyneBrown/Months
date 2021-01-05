@@ -13,7 +13,7 @@ export class AppComponent {
 
   constructor() {
 
-    let month = new Date().getUTCMonth();
+    let month = new Date().getMonth();
     let year = new Date().getFullYear() - 1;
 
     for(var i = 0; i <= 12; i++) {
